@@ -1,7 +1,7 @@
 #!/bin/bash
-
+source functions.sh
 DevOps(){
-echo "Hello Students"
+echo "Hello $1 Students $2"
 }
 
-DevOps
+DevOps "My DevOps" "Today we have a Quiz"
